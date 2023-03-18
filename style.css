@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+button{
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    height: 70px;
+    width: 200px;
+    background-color: aquamarine;
+    color: black;
+    
+
+}
+button::before,
+button::after{
+    position: absolute;
+    z-index: -1;
+   
+}
+.btn:hover{
+    color: black;
+    background-color: green;
+   
+}
+img{
+    height: 650px;
+    width: 650px;
+}
